@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+    text-align: center;
+    background-image: url(obg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Patrick Hand';
+}
+
+.heading {
+    width: 100%;
+    margin: 0px;
+    font-size: 50px;
+}
+
+#status {
+    font-size: 18px;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+
+#detected {
+    font-size: 18px;
+    background-color: rgb(122, 213, 216);
+    border-radius: 20px;
+}
+
+#back {
+    font-size: 20px;
+    background-color: rgb(173, 233, 191);
+    border-radius: 20px;
+    float: right;
+    margin-top: 5px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 5px 5px 38px #8cbcdd;}
+    to {box-shadow: 5px 5px 38px #3480a3;}
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 5;
+    animation-name: fadeInAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+  }
+  
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }

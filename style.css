@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+    text-align: center;
+    background-image: url(obg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Patrick Hand';
+}
+
+.heading {
+    width: 100%;
+    margin: 0px;
+    font-size: 50px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 5px 5px 38px #8cbcdd;}
+    to {box-shadow: 5px 5px 38px #3480a3;}
+}
+
+#page-1 {
+    background-color: #55ade0;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#page-2 {
+    background-color: #78c8ec;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#page-3 {
+    background-color: rgb(154, 215, 226);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#page-4 {
+    background-color: rgb(151, 214, 231);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#page-5 {
+    background-color: rgb(171, 222, 236);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 5;
+    animation-name: fadeInAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+  }
+  
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
